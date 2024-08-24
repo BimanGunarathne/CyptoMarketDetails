@@ -6,12 +6,12 @@ getMarketData:{
 
 marketData: getMarketData[]
 
-.z.ts:10000
-
 fetchLoop:{
     marketData: getMarketData[];
-    show marketData
+    show marketData;
  }
+
+fetchLoop[.z.ts : 1000]
 
 // response:.Q.hg apiUrl
 // parsedData:.j.k response
