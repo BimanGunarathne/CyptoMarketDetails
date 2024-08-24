@@ -12,7 +12,3 @@ fetchLoop:{
  }
 
 fetchLoop[.z.ts : 1000]
-
-// response:.Q.hg apiUrl
-// parsedData:.j.k response
-// show parsedData
