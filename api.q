@@ -4,7 +4,7 @@ getMarketData:{
     .j.k response
  }
 
-marketData: getMarketData[]
+marketData: getMarketData[];
 
 fetchLoop:{
     marketData: getMarketData[];
