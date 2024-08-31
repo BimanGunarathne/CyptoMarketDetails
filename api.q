@@ -1,14 +1,6 @@
 getMarketData:{
     url:":https://api.binance.com/api/v3/ticker/24hr";
     response:.Q.hg url;
-    .j.k response
+    data:.j.k response;
+    select `$symbol,"F"$lastPrice,"F"$volume from data
  }
-
-marketData: getMarketData[];
-
-fetchLoop:{
-    marketData: getMarketData[];
-    show marketData;
- }
-
-fetchLoop[.z.ts : 1000]
