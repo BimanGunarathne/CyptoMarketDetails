@@ -1,2 +1,4 @@
-\l api.q
+\l timeloop.q
+
+tradeTable:([] symbol:();price:();volume:();timestamp:())
 
